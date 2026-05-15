@@ -60,8 +60,8 @@ const Hero = () => {
         ))}
       </div>
 
-      <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-6 pt-20 md:pt-32 pb-20 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-center">
           <div className="space-y-8">
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
@@ -71,7 +71,7 @@ const Hero = () => {
             </div>
 
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
+              <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
                 Building{" "}
                 <span className="text-primary glow-text">full stack</span>
                 <br />
@@ -81,7 +81,7 @@ const Hero = () => {
                   and AI-driven thinking.
                 </span>
               </h1>
-              <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
+              <p className="text-base md:text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
                 I'm a full-stack developer with a passion for building modern
                 web applications using React. I have hands-on experience working
                 with AI tools and systems, integrating them into real-world
@@ -90,7 +90,7 @@ const Hero = () => {
                 responsive user interfaces to building robust backends, and I'm
                 always exploring new technologies to level up my skills
               </p>
-              <div className="flex flez-wrap gap-4 cursor-pointer animate-fade-in animation-delay-300">
+              <div className="flex flex-wrap gap-4 cursor-pointer animate-fade-in animation-delay-300">
                 <Button
                   size="lg"
                   onClick={() =>
@@ -135,7 +135,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="relative animate-fade-in animation-delay-300">
+          <div className="relative animate-fade-in animation-delay-300 hidden lg:block">
             <div className="relative max-w-md mx-auto">
               <div
                 className="absolute inset-0 

@@ -47,6 +47,9 @@
     .md\:block {
       display: block !important;
     }
+    .lg\:block {
+      display: block;
+    }
   }
   @keyframes fade-in {
     from {
